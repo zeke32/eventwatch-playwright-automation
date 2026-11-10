@@ -1,0 +1,6 @@
+# Literal 02:00 EST all year = 07:00 UTC (03:00 EDT during US daylight-saving time).
+# On a Linux crontab whose timezone is UTC, e.g. set CRON_TZ=UTC when supported:
+# CRON_TZ=UTC
+# 0 7 * * * /usr/bin/flock -n /tmp/eventwatch-cron.lock /usr/bin/env bash -lc 'cd /ABS/PATH/eventwatch-playwright-demo && /usr/bin/node src/cli.js /ABS/PATH/targets.authorized.json >> /ABS/PATH/eventwatch.log 2>&1'
+# For 02:00 New York wall time (switches EST / EDT): use a scheduler with timezone America/New_York.
+# Check provider rules for the spring-forward transition at 02:00 and define the desired catch-up behavior.

@@ -1,0 +1,9 @@
+[
+  {"event_id":"PP-201","platform":"pacepass","url":"http://127.0.0.1:8765/pacepass/coastline-ultra"},
+  {"event_id":"PP-202","platform":"pacepass","url":"http://127.0.0.1:8765/pacepass/ridgeway-trail"},
+  {"event_id":"TD-301","platform":"traildesk","url":"http://127.0.0.1:8765/traildesk/summit-relay"},
+  {"event_id":"TD-302","platform":"traildesk","url":"http://127.0.0.1:8765/traildesk/cedar-crossing"},
+  {"event_id":"SL-401","platform":"startline","url":"http://127.0.0.1:8765/startline/harbor-marathon"},
+  {"event_id":"SL-402","platform":"startline","url":"http://127.0.0.1:8765/startline/forest-duathlon"},
+  {"event_id":"PP-503","platform":"pacepass","url":"http://127.0.0.1:8765/pacepass/server-error"}
+]
